@@ -28,7 +28,7 @@ jobs:
           pip install pytest httpx
 
       - name: Train ML Model
-        run: python train_model.py
+        run: python train-model.py
 
       - name: Run Tests
         run: python -m pytest -v
