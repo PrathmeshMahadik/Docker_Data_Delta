@@ -22,5 +22,6 @@ def train_model():
     joblib.dump(model,MODEL_PATH)
     print("ML Model Train Successfully.")
     print(f"Model Saved at :{MODEL_PATH}")
+
 if __name__ == "__main__":
     train_model()
